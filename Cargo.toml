@@ -1,0 +1,20 @@
+[package]
+name = "API"
+version = "0.0.1"
+description = "Rust API"
+repository = "https://github.com/GuilhermeWerner/RustAPI"
+authors = ["GuilhermeWerner <guilhermeqwerner@gmail.com>"]
+license = "MIT"
+edition = "2018"
+publish = false
+
+[[bin]]
+name="Server"
+path = "Source/Server.rs"
+
+[dependencies]
+rocket = "0.4.6"
+rocket_contrib = "0.4.6"
+# serde = "1.0"
+# serde_json = "1.0"
+# serde_derive = "1.0"
