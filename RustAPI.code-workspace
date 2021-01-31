@@ -1,10 +1,10 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
         "files.associations": {
             "*.toml": "properties"
         }

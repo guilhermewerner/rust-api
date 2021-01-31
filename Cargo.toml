@@ -1,5 +1,5 @@
 [package]
-name = "API"
+name = "RustAPI"
 version = "0.0.1"
 description = "Rust API"
 repository = "https://github.com/GuilhermeWerner/RustAPI"
@@ -14,7 +14,8 @@ path = "Source/Server.rs"
 
 [dependencies]
 rocket = "0.4.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 rocket_contrib = "0.4.6"
-# serde = "1.0"
-# serde_json = "1.0"
-# serde_derive = "1.0"
+mysql = "20.1.0"
+dotenv = "0.15.0"
